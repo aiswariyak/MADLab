@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0eee4"
+    android:stretchColumns="1"
+    tools:context=".MainActivity">
+<TableRow>
+
+    <TextView
+        android:layout_column="1"
+        android:padding="3dip"
+        android:text="@string/open"
+        android:textColor="#05C3DD" />
+
+    <TextView
+        android:padding="3dip"
+        android:text="@string/ctrl_o"
+        android:textColor="#05C3DD"/>
+</TableRow>
+
+<TableRow>
+
+<TextView
+    android:layout_column="1"
+    android:padding="3dip"
+    android:text="@string/save"
+    android:textColor="#05C3DD"/>
+
+<TextView
+    android:padding="3dip"
+    android:text="@string/ctrl_s"
+    android:textColor="#05C3DD"/>
+</TableRow>
+
+<TableRow>
+
+<TextView
+    android:layout_column="1"
+    android:padding="3dip"
+    android:text="@string/save_as"
+    android:textColor="#05C3DD"/>
+
+<TextView
+    android:padding="3dip"
+    android:text="@string/ctrl_shift_s"
+    android:textColor="#05C3DD"/>
+</TableRow>
+
+<View
+android:layout_height="2dip"
+android:background="#000000" />
+
+<TableRow>
+
+<TextView
+    android:layout_column="1"
+    android:padding="3dip"
+    android:text="@string/x_import"
+    android:textColor="#000000"/>
+</TableRow>
+
+<TableRow>
+
+<TextView
+    android:layout_column="1"
+    android:padding="3dip"
+    android:text="@string/x_export"
+    android:textColor="#000000"/>
+
+<TextView
+    android:padding="3dip"
+    android:text="@string/ctrl_e"
+    android:textColor="#000000"/>
+</TableRow>
+
+<View
+android:layout_height="2dip"
+android:background="#000000" />
+
+<TableRow>
+
+<TextView
+    android:layout_column="1"
+    android:padding="3dip"
+    android:text="@string/quit"
+    android:textColor="#000000"/>
+</TableRow>
+</TableLayout>
